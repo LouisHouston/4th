@@ -49,11 +49,11 @@ app.on('activate', () => {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
 
-return db.any('SELECT * FROM employees')
-    .then(employees => {
-      console.log(employees); // or do something with the data
-    })
-    .catch(error => {
-      console.error('Error fetching employees:', error);
-      throw error; // Rethrow the error if needed
-    });
+// return db.any('SELECT * FROM employees')
+//     .then(employees => {
+//       console.log(employees); // or do something with the data
+//     })
+//     .catch(error => {
+//       console.error('Error fetching employees:', error);
+//       throw error; // Rethrow the error if needed
+//     });
