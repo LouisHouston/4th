@@ -14,15 +14,15 @@ table {
   border-radius: 30px 30px 30px 30px;
   border-collapse: collapse;
   width: 100%;
-  border: 5px solid black;
+  border: 2px solid black;
 }
 
-th {
+th,td {
   border: 1px solid black;
   border-radius: 10px;
 }
 
-div {
+.example1 {
   border:2px solid black;
   border-radius: 30px 30px 30px 30px;
 }

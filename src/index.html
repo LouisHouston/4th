@@ -4,30 +4,42 @@
     <meta charset="UTF-8" />
     <title>Hello World!</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <script src="../src/script.js"></script>
   </head>
   <body>
     <h1>💖 Hello World!</h1>
-    <p><table>
+    <p></p>
+    <table class="main">
       <tr>
-        <th> Header1</th>
-        <th> Header1</th>
-        <th> Header1</th>
+        <th class="lot">Lot</th>
+        <th class="quantity">Quantity</th>
+        <th class="date">Received At</th>
+        <th class="Num">Item Number</th>
       </tr>
 
       <tr>
-        <td> Hello</td>
-        <td> there</td>
-        <td> johnny </td>
+        <td>Hello</td>
+        <td>there</td>
+        <td>johnny</td>
       </tr>
 
-      <tr> 
-        <td> Will</td>
-        <td> it</td>
-        <td> Work</td>
+      <tr>
+        <td>Will</td>
+        <td>it</td>
+        <td>Work</td>
       </tr>
-
     </table>
-    <div> Hello</div>
-  </p>
+
+    <div class="form-container">
+      <form>
+        <select id="item-type" name="Type of Item"> 
+          <option value="" disabled selected> Type of Item</option>
+          <option value="Corrugate"> Corrugate</option>
+          <option value="Perishable"> Raw Material</option>
+          <option value="PPE"> PPE</option>
+        </select>
+        
+      </form>
+    </div>
   </body>
 </html>
