@@ -8,18 +8,7 @@
   </head>
   <body>
     <h1>💖 Hello World!</h1>
-    <%- include('partials/table.ejs')  %>
-
-    <div class="form-container">
-      <form>
-        <select id="item-type" name="Type of Item"> 
-          <option value="" disabled selected> Type of Item</option>
-          <option value="Corrugate"> Corrugate</option>
-          <option value="Perishable"> Raw Material</option>
-          <option value="PPE"> PPE</option>
-        </select>
-        
-      </form>
-    </div>
+    <%- include('partials/table.ejs') %> 
+    <%- include('partials/addItem.ejs') %>
   </body>
 </html>

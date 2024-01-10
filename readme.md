@@ -12,10 +12,13 @@ I am basing this off electron.js to be a standalone application, for my db we ar
 ## ~Updates~
 ### January 7 - 13 <br>
 [  ] Basic layout (table is best) <br>
-[  ] Testing db connection (pg-promise!) <br>
+[ x ] Testing db connection (pg-promise!) <br>
 [  ] Layout schema db
 
 #### Notes
 I think that going with a table that includes things like: lot, received date, quantity, expiration(if perishable), and this is included as a base and then the production day you can input values to determine how much waste or efficiency based off time so I will start on the table as this is the main component. It also has to interact with the db.<br> Haven't chosen a front end though bored of React
 
 Need to finish Form for submitting an item
+
+### January 9
+Added a way so that the dropdown menu only shows user the data needed for entering a type of item like a PPE or Corrugate wouldn't need an expiration date

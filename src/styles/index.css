@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
   margin: auto;
   max-width: 38rem;
@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color:aqua;
+  color: aqua;
 }
 
 table {
@@ -17,12 +17,25 @@ table {
   border: 2px solid black;
 }
 
-th,td {
+th,
+td {
   border: 1px solid black;
   border-radius: 10px;
 }
 
 .example1 {
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 30px 30px 30px 30px;
+}
+
+.itemTypes {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }

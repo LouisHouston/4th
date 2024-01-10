@@ -1,0 +1,27 @@
+<script src="../../scripts/formScripts.js"></script>
+
+<!-- need to add the rest of the forms -->
+<div class="form-container">
+  <form>
+    <select
+      id="item-type"
+      name="Type of Item"
+      onchange="handleItemTypeChange()"
+    >
+      <option value="" disabled selected>Type of Item</option>
+      <option value="Corrugate">Corrugate</option>
+      <option value="Perishable">Raw Material</option>
+      <option value="PPE">PPE</option>
+    </select>
+  </form>
+
+  <div class="itemTypes" id="form-corrugate" style="display: none">
+    CORRUGATE
+  </div>
+
+  <div class="itemTypes" id="form-perishable" style="display: none">
+    Perishable
+  </div>
+
+  <div class="itemTypes" id="form-ppe" style="display: none">PPE</div>
+</div>
