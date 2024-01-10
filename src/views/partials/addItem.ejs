@@ -1,6 +1,8 @@
 <script src="../../scripts/formScripts.js"></script>
 
 <!-- need to add the rest of the forms -->
+
+<!-- Description, lot, quantity, location, bay location(some items)-->
 <div class="form-container">
   <form>
     <select
@@ -16,11 +18,42 @@
   </form>
 
   <div class="itemTypes" id="form-corrugate" style="display: none">
-    CORRUGATE
+    <form>
+      <label for="description">Description:</label>
+      <input type="text" id="corrugate" name="description" required>
+      <label for="lot">Lot:</label>
+      <input type="text" id="lot" name="lot" required>
+      <label for="quantity">Quantity:</label>
+      <input type="text" id="quantity" name="quantity" required>
+      <select
+      id="location"
+      name="location"
+      >
+    <option value="" disabled selected> Warehouse Number</option>
+    <option value="140"> 140</option>
+    <option value="165"> 165</option>
+    </select>
+    </form>
   </div>
 
+  <!-- perishable should have quantity be lbs -->
   <div class="itemTypes" id="form-perishable" style="display: none">
-    Perishable
+    <form>
+      <label for="description">Description:</label>
+      <input type="text" id="perishable" name="perishable" required>
+      <label for="lot">Lot:</label>
+      <input type="text" id="lot" name="lot" required>
+      <label for="quantity">Quantity:</label>
+      <input type="text" id="quantity" name="quantity" required>lbs
+      <select
+      id="location"
+      name="location"
+      >
+      <option value="" disabled selected> Warehouse Number</option>
+      <option value="140"> 140</option>
+      <option value="165"> 165</option>
+      </select>
+      </form>
   </div>
 
   <div class="itemTypes" id="form-ppe" style="display: none">PPE</div>
