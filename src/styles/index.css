@@ -4,27 +4,28 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  background-color: rgb(80, 74, 74);
 }
 
 h1 {
-  color: aqua;
+  color:burlywood;
 }
 
 table {
   border-radius: 30px 30px 30px 30px;
   border-collapse: collapse;
   width: 100%;
-  border: 2px solid black;
+  border: 2px solid beige;
+  color: beige;
 }
 
-th,
-td {
-  border: 1px solid black;
+th, td {
+  border: 1px solid beige;
   border-radius: 10px;
 }
 
 .example1 {
-  border: 2px solid black;
+  border: 2px solid beige;
   border-radius: 30px 30px 30px 30px;
 }
 
@@ -38,4 +39,5 @@ td {
   display: flex;
   align-items: center;
   margin-right: 10px;
+  color: beige;
 }
